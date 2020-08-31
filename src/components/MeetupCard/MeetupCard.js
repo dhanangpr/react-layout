@@ -11,12 +11,11 @@ const MeetupCard = () => {
             <Avatar/>
             <div className="MeetupDesc">
                 <h1>Hacktiv8 Meetup</h1>
-                <p>Location : Jakarta , Indonesia</p>
-                <p>Members : 1078</p>
-                <p>Organizer : Adhy Wiranata</p>
+                <h6>Location : Jakarta , Indonesia</h6>
+                <h6>Members : 1078</h6>
+                <h6>Organizer : Adhy Wiranata</h6>
                 <Button text="Join Us!"></Button>
             </div>
-            
         </div>
     );
 }

@@ -5,7 +5,6 @@ import {
   import { Navbar, Nav } from 'react-bootstrap'
 
 class BootstrapNavbar extends React.Component{
-
     render(){
         return(
             <div>

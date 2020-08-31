@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <BootstrapNavbar/>
-      <div className="container">
+      <br></br>
+      <Container>
         <MeetupCard />
-        <br></br>
         <h1>Next Meetup</h1>
         <NextMeetupCard />
         <h1>About Meetup</h1>
@@ -27,6 +27,7 @@ function App() {
           <p className="SeeAll">See all</p><br />
         </div>
         <MembersCard />
+        <br></br>
         <div>
           <h1>Past Meetups</h1> 
           <p className="SeeAll">See all</p><br />
@@ -45,7 +46,7 @@ function App() {
         <br />
         <center><p className="copyright">Copyright &copy; Hacktiv8 2020 </p></center>
         <br />  
-      </div>
+      </Container>
     </div>
   );
 }
