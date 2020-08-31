@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from '../Image/Image';
+import Image from './Image';
 
 const MeetupCard = () => {
     return (

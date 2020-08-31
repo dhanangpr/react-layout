@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './App.css';
 
-import BootstrapNavbar from './components/bootstrapNavbar';
-import MeetupCard from './components/MeetupCard/MeetupCard';
-import NextMeetupCard from './components/NextMeetupCard/NextMeetupCard';
-import MembersCard from './components/MembersCard/MembersCard';
-import PastMeetupCard from './components/PastMeetupCard/PastMeetupCard';
+import BootstrapNavbar from './components/BootstrapNavbar';
+import MeetupCard from './components/MeetupCard';
+import NextMeetupCard from './components/NextMeetupCard';
+import MembersCard from './components/MembersCard';
+import PastMeetupCard from './components/PastMeetupCard';
 
 function App() {
   return (
