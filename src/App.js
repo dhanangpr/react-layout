@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './App.css';
+
 import BootstrapNavbar from './components/bootstrapNavbar';
 import MeetupCard from './components/MeetupCard/MeetupCard';
 import NextMeetupCard from './components/NextMeetupCard/NextMeetupCard';
@@ -12,25 +13,28 @@ function App() {
     <div className="App">
       <BootstrapNavbar/>
       <br></br>
-      <Container>
+      <div className="container">
         <MeetupCard />
-        <h1>Next Meetup</h1>
+        <h3 className="text-left">Next Meetup</h3>
         <NextMeetupCard />
-        <h1>About Meetup</h1>
-        <p> 
+        
+        <h3 className="text-left">About Meetup</h3>
+        <p className="text-left ml-4"> 
           Come and meet other developers interested in the JavaScript and its library in the Greater Jakarta area<br /><br />
           Twitter: @JakartaJS and we user the hashtag #jakartajs
         </p>
         <br />
         <div>
-          <h1>Members</h1> 
-          <p className="SeeAll">See all</p><br />
+        
+        <h3 className="text-left">Members</h3>
+        <p className="text-right">See all</p><br />
         </div>
         <MembersCard />
         <br></br>
         <div>
-          <h1>Past Meetups</h1> 
-          <p className="SeeAll">See all</p><br />
+        
+        <h3 className="text-left">Past Meetups</h3> 
+        <p className="text-right">See all</p><br />
         </div>
         <div className="past-meetups">
           <Container>
@@ -46,7 +50,7 @@ function App() {
         <br />
         <center><p className="copyright">Copyright &copy; Hacktiv8 2020 </p></center>
         <br />  
-      </Container>
+      </div>
     </div>
   );
 }

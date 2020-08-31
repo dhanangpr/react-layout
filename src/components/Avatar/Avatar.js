@@ -6,7 +6,7 @@ import './Avatar.css';
 
 const Avatar = () => {
     return (
-        <div>
+        <div className="m-4">
             <img src={avatar}
                 alt="Avatar"
                 className="avatar" 

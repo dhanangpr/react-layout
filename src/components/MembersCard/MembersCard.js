@@ -2,18 +2,15 @@ import React from 'react';
 
 import Avatar from '../Avatar/Avatar';
 
-import './MembersCard.css';
-
 const MembersCard = () => {
     return (
-        <div className="MembersCard">
+        <div className="card flex-row flex-wrap text-left mb-4">
             <Avatar/>
-            <div className="MembersDesc">
-                <h2>Organizers</h2>
-                <p>Adhi Wiranata    4 others</p>
+            <div className="card-block pt-4">
+                <h4>Organizers</h4>
+                <p>Adhi Wiranata 4 others</p>    
             </div>
-            
-        </div>
+        </div> 
     );
 }
 
