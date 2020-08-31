@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './App.css';
-
 import BootstrapNavbar from './components/bootstrapNavbar';
 import MeetupCard from './components/MeetupCard/MeetupCard';
 import NextMeetupCard from './components/NextMeetupCard/NextMeetupCard';
