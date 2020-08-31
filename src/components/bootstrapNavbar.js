@@ -8,8 +8,7 @@ class BootstrapNavbar extends React.Component{
     render(){
         return(
             <div>
-                <div className="row">
-                    <div className="col-md-12">
+                <div className="col-md-12">
                         <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                                 <Navbar.Brand href="#home">QTemu</Navbar.Brand>
@@ -25,7 +24,6 @@ class BootstrapNavbar extends React.Component{
                                 </Navbar.Collapse>
                             </Navbar>
                         </Router>
-                    </div>
                 </div>
             </div>
         )  

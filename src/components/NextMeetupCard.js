@@ -2,7 +2,7 @@ import React from 'react';
 
 const NextMeetupCard = (props) => {
     return (
-        <div className="card flex-row flex-wrap text-left mb-4 ml-4">
+        <div className="card flex-row flex-wrap text-left bg-light mb-4 ml-4">
             <div className="card-block px-2">
             <b>Awesome Meetup and event</b><br />
             <p className="date">25 January 2019</p>
