@@ -1,0 +1,14 @@
+.MembersCard{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    border: #caccd1 solid thin;
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+    
+}
+
+.MembersDesc{
+    margin-left: 50px;
+}

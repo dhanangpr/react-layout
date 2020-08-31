@@ -1,0 +1,21 @@
+.PastMeetupCard{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    border: #caccd1 solid thin;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
+.PastMeetupDesc{
+    /* margin-left: 50px; */
+    width: 100%;
+}
+
+.went{
+    font-weight: bold;
+    color: dimgrey;
+}
