@@ -14,7 +14,7 @@ function App() {
       <BootstrapNavbar/>
       <br></br>
       <div className="container">
-        <MeetupCard />
+        <MeetupCard/>
         <h3 className="text-left">Next Meetup</h3>
         <NextMeetupCard />
         
@@ -29,7 +29,7 @@ function App() {
         <h3 className="text-left">Members</h3>
         <p className="text-right">See all</p><br />
         </div>
-        <MembersCard />
+        <MembersCard name="Adhi Wiranata" count="4"/>
         <br></br>
         <div>
         

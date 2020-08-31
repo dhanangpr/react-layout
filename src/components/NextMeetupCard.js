@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NextMeetupCard = () => {
+const NextMeetupCard = (props) => {
     return (
         <div className="card flex-row flex-wrap text-left mb-4 ml-4">
             <div className="card-block px-2">
