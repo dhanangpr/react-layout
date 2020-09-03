@@ -13,7 +13,7 @@ function App() {
       id: 0,
       date: '27 November 2017',
       event: '#39 JakartaJS April Meetup with Kumparan',
-      attendees: '139',
+      attendees: 139,
     },
     {
       id: 1,
