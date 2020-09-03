@@ -8,6 +8,27 @@ import MembersCard from './components/MembersCard';
 import PastMeetupCard from './components/PastMeetupCard';
 
 function App() {
+  const dataPastMeetUp = [
+    {
+      id: 0,
+      date: '27 November 2017',
+      event: '#39 JakartaJS April Meetup with Kumparan',
+      attendees: '139',
+    },
+    {
+      id: 1,
+      date: '27 November 2017',
+      event: '#38 JakartaJS April Meetup with Blibli',
+      attendees: 113,
+    },
+    {
+      id: 2,
+      date: '27 November 2017',
+      event: '#37 JakartaJS April Meetup with Hacktiv8',
+      attendees: 110,
+    }
+  ]
+
   return (
     <div className="App">
       <BootstrapNavbar/>
@@ -38,11 +59,7 @@ function App() {
         <div className="mb-4">
         <h3 className="text-left">Past Meetups</h3>
         <p className="text-right">See all</p>
-            <div className="row">
-                <PastMeetupCard date="27 November 2017" event_desc="#39 JakartaJS April Meetup with Kumparan" attendees={139}/>
-                <PastMeetupCard date="27 November 2017" event_desc="#38 JakartaJS April Meetup with Blibli" attendees={113}/>
-                <PastMeetupCard date="27 November 2017" event_desc="#37 JakartaJS April Meetup with Hacktiv8" attendees={110}/>
-            </div>
+          <PastMeetupCard data={dataPastMeetUp}/>
         </div>
 
         <hr />
