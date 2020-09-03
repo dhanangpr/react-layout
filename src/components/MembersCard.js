@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Avatar from './Avatar/Avatar';
 
@@ -12,6 +13,11 @@ const MembersCard = (props) => {
             </div>
         </div> 
     );
+}
+
+MembersCard.propTypes = {
+    name: PropTypes.string,
+    count: PropTypes.number
 }
 
 export default MembersCard;

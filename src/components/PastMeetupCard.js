@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 
 import Button from './Button';
@@ -17,6 +18,12 @@ const PastMeetupCard = (props) => {
         </div>
         </Col>
     );
+}
+
+PastMeetupCard.propTypes = {
+    date: PropTypes.string,
+    event_desc: PropTypes.string,
+    attendees: PropTypes.number
 }
 
 export default PastMeetupCard;

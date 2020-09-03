@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const NextMeetupCard = (props) => {
     return (
@@ -20,6 +21,11 @@ const NextMeetupCard = (props) => {
             </div>
         </div>
     );
+}
+
+NextMeetupCard.propTypes = {
+    title: PropTypes.string,
+    date: PropTypes.string
 }
 
 export default NextMeetupCard;

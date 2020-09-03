@@ -20,7 +20,10 @@ const MeetupCard = (props) => {
 }
 
 MeetupCard.propTypes = {
-    title: PropTypes.string
+    title: PropTypes.string,
+    loc: PropTypes.string,
+    members: PropTypes.number,
+    org: PropTypes.string
 }
 
 export default MeetupCard;

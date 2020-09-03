@@ -29,7 +29,7 @@ function App() {
         <h3 className="text-left">Members</h3>
         <p className="text-right">See all</p><br />
         </div>
-        <MembersCard name="Adhi Wiranata" count="4"/>
+        <MembersCard name="Adhi Wiranata" count={4}/>
         <br></br>
         <div>
         
@@ -39,9 +39,9 @@ function App() {
         <div className="past-meetups">
           <Container>
             <Row>
-              <PastMeetupCard date="27 November 2017" event_desc="#39 JakartaJS April Meetup with Kumparan" attendees="139"/>
-              <PastMeetupCard date="27 November 2017" event_desc="#38 JakartaJS April Meetup with Blibli" attendees="113"/>
-              <PastMeetupCard date="27 November 2017" event_desc="#37 JakartaJS April Meetup with Hacktiv8" attendees="110"/>
+              <PastMeetupCard date="27 November 2017" event_desc="#39 JakartaJS April Meetup with Kumparan" attendees={139}/>
+              <PastMeetupCard date="27 November 2017" event_desc="#38 JakartaJS April Meetup with Blibli" attendees={113}/>
+              <PastMeetupCard date="27 November 2017" event_desc="#37 JakartaJS April Meetup with Hacktiv8" attendees={110}/>
             </Row>
           </Container>
         </div>
