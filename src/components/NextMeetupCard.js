@@ -4,8 +4,8 @@ const NextMeetupCard = (props) => {
     return (
         <div className="card flex-row flex-wrap text-left bg-light mb-4 ml-4">
             <div className="card-block px-2">
-            <b>Awesome Meetup and event</b><br />
-            <p className="date">25 January 2019</p>
+            <b>{props.title}</b><br />
+            <p className="date">{props.date}</p>
             <p>
                 Hello, Javascript & Node.js Ninjas!<br></br>
                 Get ready for our monthly meetup JakartaJS! This will be our fifth meetup of 2018!<br></br>

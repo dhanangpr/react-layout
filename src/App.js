@@ -14,9 +14,9 @@ function App() {
       <BootstrapNavbar/>
       <br></br>
       <div className="container">
-        <MeetupCard/>
+        <MeetupCard title="Hactiv8 Meeting" loc="Jakarta, Indonesia" members={1078} org="Adhy Wiranata"/>
         <h3 className="text-left">Next Meetup</h3>
-        <NextMeetupCard />
+        <NextMeetupCard title="Awesome Meetup and event" date="25 January 2019"/>
         
         <h3 className="text-left">About Meetup</h3>
         <p className="text-left ml-4"> 
