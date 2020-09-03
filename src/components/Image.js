@@ -1,18 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-import image from '../assets/image.jpg';
-
-const Image = () => {
+const Image = ({src, alt }) => {
     return (
         <div className="card-header">
-            <img src={image}
-                alt="Meeting"
-                className="image"
-                width="200px" 
-                height="200px" 
-            />
+            <img src={src} alt={alt} width="200px" height="200px"/>
         </div>
     );
+}
+
+Image.propTypes = {
+    src: PropTypes.string.isRequired,
+    alt: PropTypes.string,
 }
 
 export default Image;

@@ -1,18 +1,17 @@
 import React from 'react'
-
-import avatar from '../../assets/avatar.jpg';
+import PropTypes from 'prop-types'
 
 import './Avatar.css';
 
-const Avatar = () => {
+const Avatar = ({src, alt }) => {
     return (
-        <div className="m-4">
-            <img src={avatar}
-                alt="Avatar"
-                className="avatar" 
-            />
-        </div>
+        <img src={src} alt={alt} className="avatar"/>
     );
+}
+
+Avatar.propTypes = {
+    src: PropTypes.string.isRequired,
+    alt: PropTypes.string,
 }
 
 export default Avatar;
