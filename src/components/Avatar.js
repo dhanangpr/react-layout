@@ -1,11 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-import './Avatar.css';
+const StyledAvatar = styled.img`
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+`;
 
 const Avatar = ({src, alt }) => {
     return (
-        <img src={src} alt={alt} className="avatar"/>
+        <StyledAvatar src={src} alt={alt} />
     );
 }
 

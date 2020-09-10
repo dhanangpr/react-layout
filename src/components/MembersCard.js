@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Avatar from './Avatar/Avatar';
+import Avatar from './Avatar';
 import AvatarImages from '../assets/avatar.jpg';
 
 const MembersCard = (props) => {

@@ -1,10 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-const Image = ({src, alt }) => {
+const StyledImage = styled.img`
+  width:200px;
+  height:200px;
+`;
+
+const Image = ({src, alt}) => {
     return (
         <div className="card-header">
-            <img src={src} alt={alt} width="200px" height="200px"/>
+            <StyledImage src={src} alt={alt}/>
         </div>
     );
 }
