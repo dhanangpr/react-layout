@@ -11,9 +11,9 @@ const MeetupCard = (props) => {
             <Image src={MeetingImages} alt={MeetingImages}/>
             <div className="card-block px-2">
                 <h4 className="card-title mt-2">{props.title}</h4>
-                <p className="card-text">Location : {props.loc}</p>
-                <p className="card-text">Members : {props.members}</p>
-                <p className="card-text">Organizers : {props.org}</p>
+                <p className="card-text" id="location">Location : {props.loc}</p>
+                <p className="card-text" id="members">Members : {props.members}</p>
+                <p className="card-text" id="organizer">Organizer : {props.org}</p>
                 <Button text="Join Us"/>
             </div>
         </div>        
