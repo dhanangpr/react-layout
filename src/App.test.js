@@ -9,11 +9,11 @@ it('Pages App running without crash', () => {
   shallow(<App />);
 });
 
-// it('Render Title Join Us', () => {
-//   const wrapper = mount(<App />);
-//   const header = <h1>Hacktiv8 Meetup</h1>;
-//   expect(wrapper.contains(header)).toEqual(true);
-// })
+it('Render Title Join Us', () => {
+  const wrapper = mount(<App />);
+  const header = <h4 className="card-title mt-2">Hactiv8 Meeting</h4>;
+  expect(wrapper.contains(header)).toEqual(true);
+})
 
 describe('content description test', () => {
   it('Location', () => {
